@@ -1,31 +1,31 @@
-# Calcula GPS Ajudante Salweb - Automatic CNIS Analysis Tool
+# Calcula GPS Ajudante Salweb - Ferramenta de Análise Automática do CNIS
 
-## Primary Objective
-This project aims to process "PRISMA/SABI Completo" and "Contribuições/Recolhimentos" PDFs to identify contribution issues (e.g., below minimum wage), suggest necessary actions (e.g., 11% to 20% complementation, MEI 5% to 20%, minimum complementation for codes 1007/1406), and automatically generate an HTML table. This table is formatted for upload into the  extension, facilitating automatic entry of competencies into Salweb.
+## Objetivo Principal
+Este projeto visa processar os PDFs 'PRISMA/SABI Completo' e 'Contribuições/Recolhimentos' para identificar problemas de contribuição (ex: abaixo do mínimo), sugerir ações necessárias (ex: complementação de 11% para 20%, complementar para o mínimo 11%, MEI de 5% para 20%, complementar para o mínimo código 1007/1406), e gerar automaticamente uma tabela HTML. Esta tabela é formatada para ser importada pela extensão , facilitando a entrada automática de competências no Salweb.
 
-## Key Features
-- Analyzes CNIS to identify pending issues.
-- Generates HTML for import into the  extension for automatic filling in Salweb.
+## Funcionalidades Principais
+- Analisa o CNIS para identificar pendências.
+- Gera HTML para importação na extensão  para preenchimento automático no Salweb.
 
-## Target Audience
-This tool is designed for INSS (National Social Security Institute) civil servants who need to calculate contribution value differences to input into Salweb and generate the GPS (Social Security Guide) for the insured.
+## Para Quem é Destinado
+Esta ferramenta é destinada a servidores do INSS (Instituto Nacional do Seguro Social) que precisam calcular as diferenças de valores de recolhimentos para lançar no Salweb e gerar a GPS (Guia da Previdência Social) para o segurado.
 
-## How to Use
-1.  Use the provided prompt with the CNIS PDFs.
-2.  Copy the generated HTML table.
-3.  Paste the HTML into the  extension.
-4.  Save the output as a  file for later import by the  extension.
+## Como Usar
+1.  Use o prompt fornecido com os PDFs do CNIS.
+2.  Copie a tabela HTML gerada.
+3.  Cole o HTML na extensão .
+4.  Salve a saída como um arquivo  para posterior importação pela extensão .
 
-## Requirements
--   A Large Language Model (LLM) to use the prompt.
--   The 'Ajudante Salweb' extension installed in Firefox.
--   The 'PRISMA/SABI Completo' PDF and the 'Contribuições/Recolhimentos' PDF.
+## Requisitos
+-   Um Large Language Model (LLM) para usar o prompt.
+-   A extensão 'Ajudante Salweb' instalada no Firefox.
+-   Os PDFs 'PRISMA/SABI Completo' e 'Contribuições/Recolhimentos'.
 
-## Limitations and Recommendations
-This tool has been thoroughly tested multiple times, and values have been cross-checked both manually (using the rule of three) and by entering them into the CI spreadsheet, consistently yielding the same results. However, **each civil servant is responsible for their own work and must verify and check every interaction and entry.** The tool is an aid, but the final responsibility for the correctness and suitability of the work lies with the civil servant.
+## Limitações e Recomendações
+Esta ferramenta foi exaustivamente testada várias vezes, e os valores foram verificados tanto manualmente (usando a regra de três) quanto inserindo-os na planilha do CI, sempre produzindo os mesmos resultados. No entanto, **cada servidor é responsável pelo seu próprio trabalho e deve verificar e checar cada interação e entrada.** A ferramenta é um auxílio, mas a responsabilidade final pela correção e adequação do trabalho é do servidor.
 
-## Contact
-For questions or suggestions, you can contact me via email: wanderleyamorim.com@gmail.com
+## Contato
+Para dúvidas ou sugestões, você pode entrar em contato via e-mail: wanderleyamorim.com@gmail.com
 
-## Additional Information
-This process is highly useful and has saved me a significant amount of time, in addition to being less susceptible to failures, human calculation errors, filling mistakes, etc.
+## Informações Adicionais
+Este processo é extremamente útil e tem me economizado uma quantidade significativa de tempo, além de ser menos suscetível a falhas, erros de cálculo humanos, erros de preenchimento, etc.
