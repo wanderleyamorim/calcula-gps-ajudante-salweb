@@ -1,7 +1,7 @@
 # Ajudante do Ajudante Salweb - Ferramenta de Análise Automática do CNIS que Gera uma Tabela para a Extensão
 
 ## Objetivo Principal
-Este projeto visa processar os PDFs 'PRISMA/SABI Completo' e 'Contribuições/Recolhimentos' para identificar problemas de contribuição (ex: abaixo do mínimo), sugerir ações necessárias (ex: complementação de 11% para 20%, complementar para o mínimo 11%, MEI de 5% para 20%, complementar para o mínimo código 1007/1406), e gerar automaticamente uma tabela HTML. Esta tabela é formatada para ser importada pela extensão , facilitando a entrada automática de competências no Salweb.
+Este projeto visa processar os PDFs 'SIBE Completo' e 'Contribuições/Recolhimentos' para identificar problemas de contribuição (ex: abaixo do mínimo), sugerir ações necessárias (ex: complementação de 11% para 20%, complementar para o mínimo 11%, MEI de 5% para 20%, complementar para o mínimo código 1007/1406), e gerar automaticamente uma tabela HTML. Esta tabela é formatada para ser importada pela extensão , facilitando a entrada automática de competências no Salweb.
 
 ## Funcionalidades Principais
 - Analisa o CNIS para identificar pendências.
@@ -19,7 +19,7 @@ Esta ferramenta é destinada a servidores do INSS (Instituto Nacional do Seguro 
 
 ## Requisitos
 -   Um Large Language Model (LLM) para usar o prompt.
--   Os PDFs 'PRISMA/SABI Completo' e 'Contribuições/Recolhimentos'.
+-   Os PDFs 'SIBE Completo' e 'Contribuições/Recolhimentos'.
 -   A extensão 'Ajudante Salweb' instalada no Firefox.
 
 ## Limitações e Recomendações
