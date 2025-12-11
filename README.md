@@ -30,3 +30,4 @@ Para dúvidas ou sugestões, você pode entrar em contato via e-mail: wanderleya
 
 ## Informações Adicionais
 Este processo é extremamente útil e tem me economizado uma quantidade significativa de tempo, além de ser menos suscetível a falhas, erros de cálculo humanos, erros de preenchimento, etc.
+Eu tenho usado como LLM, o GEMINI. E o Gen que criei é esse: https://gemini.google.com/gem/1Vxdb-nntwJE91F0btK58gjF6YV89QHIf?usp=sharing 
