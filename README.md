@@ -20,7 +20,7 @@ Esta ferramenta é destinada a servidores do INSS (Instituto Nacional do Seguro 
 ## Requisitos
 -   Um Large Language Model (LLM) para usar o prompt.
 -   Os PDFs 'SIBE Completo' e 'Contribuições/Recolhimentos'.
--   A extensão 'Ajudante Salweb' instalada no Firefox.
+-   A extensão 'Ajudante Salweb' instalada no Firefox. Esta verão aqui do Github está funcionando, após muitas horas tentando consertar. Mas como não está mais assinada, só vai funcionar se usar o Firefox Developer Edition ou se carregar a extensão, todas as vezes, em: about:debugging#/runtime/this-firefox. Mas o ideal é falar com o desenvolvedor, Gibran Bortoletto Sproger, e solicitar a ele uma atualizada que funcione.  
 
 ## Limitações e Recomendações
 Esta ferramenta foi exaustivamente testada várias vezes, e os valores foram verificados tanto manualmente (usando a regra de três) quanto inserindo-os na planilha do CI, sempre produzindo os mesmos resultados. No entanto, **cada servidor é responsável pelo seu próprio trabalho e deve verificar e checar cada interação e entrada.** A ferramenta é um auxílio, mas a responsabilidade final pela correção e adequação do trabalho é do servidor.
